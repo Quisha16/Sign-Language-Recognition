@@ -16,7 +16,7 @@ Each action was recorded in 30 separate video sequences, with each sequence comp
 MediaPipe Holistic is used to detect and extract keypoints representing various body landmarks, including hand gestures and facial expressions from input video frames.
 
 ### Data Preprocessing and Feature Extraction:
-Feature Vector Creation: These extracted keypoints were processed to create feature vectors.
+Feature Vector Creation: These extracted keypoints were processed to create feature vectors.  
 Labeling: Feature vectors were labeled according to the corresponding sign language action, creating labeled datasets for training and testing the LSTM model.
 
 ### LSTM Model Training:
